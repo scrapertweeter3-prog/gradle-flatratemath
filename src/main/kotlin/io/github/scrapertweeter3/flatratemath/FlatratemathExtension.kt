@@ -1,4 +1,4 @@
-package com.poketdev.flatratemath
+package io.github.scrapertweeter3.flatratemath
 
 /**
  * Flat-rate vs hourly math helpers. All functions are pure and side-effect free.

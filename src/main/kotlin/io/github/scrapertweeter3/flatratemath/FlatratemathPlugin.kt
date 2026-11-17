@@ -1,4 +1,4 @@
-package com.poketdev.flatratemath
+package io.github.scrapertweeter3.flatratemath
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

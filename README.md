@@ -16,12 +16,12 @@ script uses the same numbers.
 
 ```kotlin
 plugins {
-    id("com.poketdev.flatratemath") version "0.1.0"
+    id("io.github.scrapertweeter3.flatratemath") version "0.1.1"
 }
 
 tasks.register("printMath") {
     doLast {
-        val m = extensions.getByType(com.poketdev.flatratemath.FlatratemathExtension::class.java)
+        val m = extensions.getByType(io.github.scrapertweeter3.flatratemath.FlatratemathExtension::class.java)
         m.monthlyCost = 5995.0
         m.hourlyRate = 125.0
         m.monthlyHours = 40.0
