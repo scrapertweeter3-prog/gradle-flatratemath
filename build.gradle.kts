@@ -4,7 +4,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.3.0"
 }
 
-group = "io.github.scrapertweeter3prog"
+group = "io.github.scrapertweeter3-prog"
 version = "0.1.2"
 
 gradlePlugin {
